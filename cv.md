@@ -28,7 +28,7 @@ August 2019 г. - Present
  **Duties**
 
 * Technical support for users with different PC-proficiency level
-* Доработка и разработка АРМов в MS Access
+* features development in MS Access
 * Company's sites administration
 * Improvement of the company's websites
 * Online-store development on CMS Opencart
