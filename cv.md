@@ -28,7 +28,7 @@ technician programmer
 ## Education
 **_Agrarian Economic College in Gomel_**\
 September 2015 - June 2019\
-IT software
+Information Technology software
 
 ## Skills
 
