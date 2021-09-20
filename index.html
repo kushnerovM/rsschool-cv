@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/styles/style.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/arduino-light.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="caption">
+            <div class="button" id="menu-btn" onclick="toggleSlide()"><span></span></div>
+            <h1>Maxim Kushnerov</h1>
+            <p>junior frontend developer</p>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="#chapter1">Education</a> </li>
+                <li><a href="#chapter2">Work experience</a></li>
+                <li><a href="#chapter3">Skills</a></li>
+                <li><a href="#chapter4">Code example</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <aside>
+            <img class="portrait" src="/images/me.jpg" alt="Portrait">
+            <section>
+                <h2>Contacts</h2>
+                <ul>
+                    <li>Phone: +375(29)103-55-14</li>
+                    <li>Email: kushnerovmaks@mail.ru</li>
+                    <li>Telegram: @KushnerovM</li>
+                    <li>GitHub: kushnerovM</li>
+                </ul>
+            </section>
+            <section>
+                <h2>About me</h2>
+                <p>I am 21years-old programmer, focused on participating in the creation of different interesting projects.
+                    I have more than two years of experience in digital field. I strive to perform high-quality tasks
+                    with a priority on usability and comfort for the user, without being afraid of learning something
+                    new to solve them.</p>
+            </section>
+        </aside>
+        <div class="left" id="left-column">
+            <section id="chapter1">
+                <div class="h-container">
+                    <h2>Education</h2>
+                    <div class="rectangle"></div>
+                </div>
+                <article>
+                    <h3>College</h3>
+                    <p class="bold italic">Gomel State Agrarian Economic College.</p>
+                    <p>Information Technology Software </p>
+                    <p class="italic">September 2015 - June 2019</p>
+                    <p>Specialisation: <strong>Technician-programmer</strong></p>
+                </article>
+                <article>
+                    <h3>Courses/lectures</h3>
+                    <ul>
+                        <li>Learn.JavaScript</li>
+                        <li>CS50</li>
+                        <li>Stepik</li>
+                        <li>Dualingo</li>
+                    </ul>
+                </article>
+            </section>
+            <section id="chapter2">
+                <div class="h-container">
+                    <h2>Work experience</h2>
+                    <div class="rectangle"></div>
+                </div>
+                <article>
+                    <p class="bold italic">Gomel Meat Packing Plant</p>
+                    <p>IT department</p>
+                    <p class="italic">August 2019 - Present</p>
+                    <p>Technician-programmer</p>
+                    <p class="bold">Duties:</p>
+                    <ul>
+                        <li>Technical support for users with different PC-proficiency level</li>
+                        <li>Network and System administration</li>
+                        <li>Company’s sites administration</li>
+                        <li>Improvement of the company’s websites</li>
+                        <li>Online-store development (Opencart)</li>
+                        <li>Working with graphics (designing certificates, diplomas, retouching products photos)</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>My projects</h3>
+                    <div class="card-container">
+                        <div class="card">
+                            <h4>M-dostavka.by</h4>
+                            <img src="/images/cards/m-dostavka.jpg" alt="site photo">
+                            <p>Online store of Gomel Meat Packing plant, based on Opencart2.3 CMS and some Extensions and Themes.</p>
+                            <a href="http://m-dostavka.by/" class="open-button" target="_blank">перейти</a>
+                        </div>
+                        <div class="card">
+                            <h4>Sytyylev.by</h4>
+                            <img src="/images/cards/sytyylev.jpg" alt="site photo">
+                            <p>Pizza delivery online store. Base - Opencart3.0 CMS. Custom styles, scripts, added some extensions.</p>
+                            <a href="https://sytyylev.by/" class="open-button" target="_blank">перейти</a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section id="chapter3">
+                <div class="h-container">
+                    <h2>Skills</h2>
+                    <div class="rectangle"></div>
+                </div>
+                <article>
+                    <ul>
+                        <li>HTML5/CSS3</li>
+                        <li>Native Javascript</li>
+                        <li>SQL</li>
+                        <li>Git/GitHub</li>
+                        <li>Webstorm/VS Code IDE</li>
+                        <li>Adobe photoshop/Figma</li>
+                        <li>English: A2/B1</li>
+                    </ul>
+                </article>
+            </section>
+            <section id="chapter4">
+                <div class="h-container">
+                    <h2>Code example</h2>
+                    <div class="rectangle"></div>
+                </div>
+                <article class="codewars-description">
+                    <p class="bold">I have 3kuy rank and 297 solved kata on <a href="https://www.codewars.com/users/kushnerovm" target="_blank" class="italic">codewars</a>.</p>
+                    <p>This is instructions for "Correct the mistakes of the character recognition software" Kata:</p>
+                    <p>Character recognition software is widely used to digitise printed texts. This the texts can be edited, searched and stored on a computer.
+                    When documents (especially pretty old ones written with a typewriter), are digitised character recognition software often make mistakes.
+                        Your task is correct the errors in the digitised text. You only have to handle the following mistakes:</p>
+                    <ul>
+                        <li>S is misinterpreted as 5</li>
+                        <li>O is misinterpreted as 0</li>
+                        <li>I is misinterpreted as 1</li>
+                    </ul>
+                    <p>The test cases contain numbers only by mistake.</p>
+                    <p class="bold">My solution:</p>
+                </article>
+                <pre><code class="javascript">function correct(string){
+    string.replace(/5/g,"S");
+    string.replace(/0/g,"O");
+    string.replace(/1/g,"I");
+    return string
+}</code></pre>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <a href="https://github.com/kushnerovm" target="_blank"><img src="/images/GitHub_Logo_White.png" alt="git-logo"></a>
+        <a href="https://rs.school/js/" target="_blank"><img src="/images/rs_school_js.svg" alt="rss-logo"></a>
+        <p>© 2021 by Maxim Kushnerov</p>
+    </footer>
+</div>
+<script>
+    console.log("score:140");
+    function toggleSlide() {
+        let element = document.getElementById("menu");
+        if (element.className === "active-menu") {
+            element.className = "";
+            document.getElementById("left-column").className="left";
+            document.getElementById("menu-btn").className="button";
+        } else {
+            element.className = "active-menu";
+            document.getElementById("left-column").className="left active-left";
+            document.getElementById("menu-btn").className="button button-active";
+        }
+    }
+</script>
+</body>
+</html>
